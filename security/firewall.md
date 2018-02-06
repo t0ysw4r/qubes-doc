@@ -15,8 +15,7 @@ Understanding Qubes networking and firewall
 Understanding firewalling in Qubes
 ----------------------------------
 
-Every qube in Qubes is connected to the network via a FirewallVM, which is used to
-enforce network-level policies. By default there is one default FirewallVM, but
+Every qube in Qubes is connected to the network via a FirewallVM (used to enforce network-level policies), which in turn is connected to a NetVM (hosting the network card(s)). By default there is one default FirewallVM, but
 the user is free to create more, if needed.
 
 For more information, see the following:
